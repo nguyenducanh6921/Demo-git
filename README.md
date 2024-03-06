@@ -1,5 +1,5 @@
 
-### Let me introduce a little bit about Boba Movies website:
+### Let me introduce about Boba Movies website:
 - I built this project based on my favorite, I extremely love watching movies on the Internet.
 - Designed this website not only makes me happier but also helps me gain a lot of knowledge in studying the ReactJS course.
 - Through this project, I can understand the way ReactJS is implemented.
