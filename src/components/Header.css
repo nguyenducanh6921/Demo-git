@@ -1,0 +1,153 @@
+.navbar{
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  /* Animations */
+  transition-timing-function: ease-in;
+  transition: all 0.5;
+
+}
+
+.nav_black{
+  background-color: black;
+}
+
+.container{
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.left .navItem{
+  margin-right: 60px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+ion-icon{
+  font-size: 1.6rem;
+}
+
+.navItem:hover{
+  cursor: pointer;
+  color: rgb(218, 202, 182);
+}
+
+.left .logo{
+  margin-right: 120px;
+  text-decoration: none;
+  font-weight: 700;
+  color:  rgb(255, 255, 0);
+  font-size: 1.6rem;
+}
+
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin{
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  right: 140px;
+  height: 20px;
+  cursor: pointer;
+  outline: white;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  margin-right: 1rem;
+  background-color: rgb(175, 132, 53);
+  padding-bottom: 0.5rem;
+  line-height: 1rem;
+  
+}
+.login{
+  text-decoration: none;
+  color: white;
+  right: 25px;
+  height: 20px;
+  cursor: pointer;
+  outline: white;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  margin-left: 1rem;
+  background-color: rgb(229, 9, 20);
+  padding-bottom: 0.5rem;
+  line-height: 1rem;
+}
+
+.login:hover{
+  background-color: rgb(232, 48, 57);
+
+}
+
+.signin:hover{
+  background-color: rgb(179, 144, 79);
+
+
+}
+
+.search {
+  position: relative;
+  width: 350px;
+  height: 35px;
+  margin-left: 20px;
+}
+
+.search input{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 2555, 0.5);
+  outline: none;
+  border-radius: 50px;
+  padding: 0 10px 0 45px !important;
+  backdrop-filter: blur (10px);
+
+}
+
+
+
+
+
+.search input::placeholder {
+  color: #ffffff;
+}
+  
+
+.search ion-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
